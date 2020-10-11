@@ -1,5 +1,4 @@
 var cart = 0;
-
 function addItem(id, name, description, price, moreInfo) {
   let html = '';
   html += '<div class="item" data-id="' + id + '">';
@@ -13,10 +12,8 @@ function addItem(id, name, description, price, moreInfo) {
   html += '<a class="more-info-link" href="#">More info</a>';
   html += '<div class="more-info">' + moreInfo + '</div>';
   html += '</div>';
-
   $('#container').prepend(html);
 }
-
 $(document).ready(function(){
   $('#container').on('click','.more-info-link', function(event){
     event.preventDefault();
