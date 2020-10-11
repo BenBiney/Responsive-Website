@@ -1,5 +1,5 @@
 body{
-    background-color: #FFF;
+    background-color: #a56267d0;
   }
   #container {
     background-color: #DDD;
@@ -8,7 +8,7 @@ body{
   }
   #cart-container {
     width: 150%;
-    background-color: #a56267d0;
+    background-color: #FFF;
     color: #EEE;
     padding: 15px;
   }
