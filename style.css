@@ -1,13 +1,11 @@
 body {
     background-color: #FFF;
   }
-  
   #container {
     background-color: #DDD;
     padding: 12px;
     margin: 12px;
   }
-  
   #cart-container {
     width: 80%;
     background-color: #020202;
