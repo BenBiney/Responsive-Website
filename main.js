@@ -59,8 +59,7 @@ $(this).parent().find('.more-info').slideToggle('slow');
       }
     });
   });
-
-  $('#newsletter-checkbox').on('change',function(){
+$('#newsletter-checkbox').on('change',function(){
     if ($(this).is(':checked')) {
       $('#newsletter-frequency').fadeIn();
     } else {
