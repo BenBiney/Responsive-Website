@@ -3,14 +3,14 @@ body{
   }
   #container {
     background-color: #DDD;
-    padding: 12px;
-    margin: 12px;
+    padding: 15px;
+    margin: 15px;
   }
   #cart-container {
     width: 150%;
     background-color: #020202;
     color: #EEE;
-    padding: 12px;
+    padding: 15px;
   }
   #newsletter-frequency {
     display: none;
