@@ -17,18 +17,15 @@ function addItem(id, name, description, price, moreInfo) {
 $(document).ready(function(){
   $('#container').on('click','.more-info-link', function(event){
     event.preventDefault();
-
-    $(this).parent().find('.more-info').slideToggle('slow');
+$(this).parent().find('.more-info').slideToggle('slow');
     $(this)
       .animate({ "opacity": 0.5, "margin-left": 10 }, 150)
       .animate({ "opacity": 1.0, "margin-left": 0 }, 150);
   });
-
-  $('#container').on('click','.item-remove',function(){
+ $('#container').on('click','.item-remove',function(){
     $(this).parent().remove();
   });
-
-  $.ajax('data/item.json', {
+ $.ajax('data/item.json', {
     dataType: 'json',
     contentType: 'application/json',
     cache: false
@@ -43,13 +40,10 @@ $(document).ready(function(){
     console.log(errorMessage);
   })
   .always(function(){
-
   });
-
   $('#container').on('click','.item-add',function(){
     let id = $(this).parent().data('id');
-
-    $.ajax('data/addToCart.json', {
+ $.ajax('data/addToCart.json', {
       type: 'post',
       data: { id: id },
       dataType: 'json',
