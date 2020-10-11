@@ -2468,7 +2468,7 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 				matchedCount = 0,
 				i = "0",
 				unmatched = seed && [],
-				setMatched = [],
+				setMatched = [] ,
 				contextBackup = outermostContext,
 				// We must always have either seed elements or outermost context
 				elems = seed || byElement && Expr.find["TAG"]( "*", outermost ),
