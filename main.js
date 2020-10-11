@@ -77,10 +77,8 @@ $(document).ready(function(){
 
   $('#cart-form').on('submit',function(event){
     event.preventDefault();
-
-    let data = { form: $(this).serialize(), price: cart };
-
-    $.ajax($(this).attr('action'), {
+let data = { form: $(this).serialize(), price: cart };
+ $.ajax($(this).attr('action'), {
       type: 'post',
       data: data
     })
