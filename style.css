@@ -12,7 +12,6 @@ body {
     color: #EEE;
     padding: 12px;
   }
-  
   #newsletter-frequency {
     display: none;
   }
@@ -41,4 +40,3 @@ body {
   .item .more-info {
     display: none;
   }
-  
