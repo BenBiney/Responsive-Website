@@ -7,7 +7,7 @@ body {
     margin: 12px;
   }
   #cart-container {
-    width: 80%;
+    width: 150%;
     background-color: #020202;
     color: #EEE;
     padding: 12px;
@@ -25,7 +25,7 @@ body {
   }
   
   .item img {
-    width: 80%;
+    width: 150%;
   }
   
   .item .name {
