@@ -18,9 +18,9 @@ body{
   .item {
     width: 240px;
     background-color: #c0addd;
-    padding: 8px;
+    padding: 10px;
     float: left;
-    margin: 4px;
+    margin: 6px;
   }
   .item img {
     width: 150%;
