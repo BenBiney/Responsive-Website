@@ -2743,8 +2743,6 @@ return Sizzle;
 
 })( window );
 
-
-
 jQuery.find = Sizzle;
 jQuery.expr = Sizzle.selectors;
 
